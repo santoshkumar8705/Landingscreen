@@ -75,7 +75,9 @@ ul, ol {
 .unorderedlist li {
   list-style: inside;
 }
-
+.text-uppercase{
+  text-transform: uppercase;
+}
 .list-featured {
   list-style: none;
   padding: 0;
@@ -159,10 +161,16 @@ strong {
 }
 /* register section */
   #main-reg-sec{
-    background: #fcb61a;
+    background: url("../images/main_bg.png") no-repeat;
     width: 100%;
     padding: 1rem;
     padding-top: 6rem !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  #main-reg-sec::after{
+
   }
   .header-content-width{
     width: 90%;
@@ -319,7 +327,7 @@ strong {
   border-radius: 4px;
   box-shadow: #444 4px 5px 10px;
   float: left;
-  margin:0 1rem;
+  margin:0 1rem 1rem;
   padding: 1rem;
 }
 .testimonial-box >ul{
@@ -1589,19 +1597,19 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 ::-webkit-input-placeholder {
-  color: #ccc !important;
+  color: #4c4c4c !important;
 }
 
 :-moz-placeholder {
-  color: #ccc !important;
+  color: #4c4c4c !important;
 }
 
 ::-moz-placeholder {
-  color: #ccc !important;
+  color: #4c4c4c !important;
 }
 
 :-ms-input-placeholder {
-  color: #ccc !important;
+  color: #4c4c4c !important;
 }
   footer #copyright .copyright-text, footer #copyright .nav-inline {
     line-height: 24px;
